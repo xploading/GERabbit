@@ -10,12 +10,11 @@ import UIKit
 
 class XPView: GEView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override func zzSetupSubViews() {
+        self.backgroundColor = UIColor.red
+        self.frame = CGRect.init(x: 0, y: 0, width: 100, height: 100)
     }
-    */
-
+    
+    
+    
 }

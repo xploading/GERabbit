@@ -46,7 +46,9 @@ class GEViewController: UIViewController {
 }
 extension GEViewController:GEViewControllerProtocol{
 
-    internal func initWith(_ viewModel: GEViewModel) {}
+    internal func initWith(_ viewModel: GEViewModel)->GEViewController {
+        return self
+    }
     //设置导航
     internal func zzLayoutNavigation() {}
     //绑定viewModel

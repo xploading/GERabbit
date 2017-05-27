@@ -42,6 +42,7 @@
 		DFFA77DA1ED9360400678F5E /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFA77D91ED9360400678F5E /* SDWebImage.framework */; };
 		DFFA77DC1ED9443C00678F5E /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77DB1ED9443C00678F5E /* ViewController1.swift */; };
 		DFFA77DE1ED948B500678F5E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77DD1ED948B500678F5E /* ViewController2.swift */; };
+		DFFA77E01ED9540400678F5E /* XPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77DF1ED9540400678F5E /* XPView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		DFFA77D91ED9360400678F5E /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../../Library/Developer/Xcode/DerivedData/GERabbit-ejxdstaopdmtaeeqijueiqycmfqv/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
 		DFFA77DB1ED9443C00678F5E /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		DFFA77DD1ED948B500678F5E /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		DFFA77DF1ED9540400678F5E /* XPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				DFFA77901ED9317500678F5E /* Info.plist */,
 				DFFA77DB1ED9443C00678F5E /* ViewController1.swift */,
 				DFFA77DD1ED948B500678F5E /* ViewController2.swift */,
+				DFFA77DF1ED9540400678F5E /* XPView.swift */,
 			);
 			path = GERabbit;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				DFFA77C51ED931B100678F5E /* GEManageHUD.swift in Sources */,
 				DFFA77C21ED931B100678F5E /* ExtensionUIView.swift in Sources */,
 				DFFA77871ED9317500678F5E /* ViewController.swift in Sources */,
+				DFFA77E01ED9540400678F5E /* XPView.swift in Sources */,
 				DFFA77BC1ED931B100678F5E /* GEViewModel.swift in Sources */,
 				DFFA77DC1ED9443C00678F5E /* ViewController1.swift in Sources */,
 				DFFA77C31ED931B100678F5E /* GEUserModel.swift in Sources */,

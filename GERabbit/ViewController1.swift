@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController1: GEViewController {
+    var viewModel : GEViewModel?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,11 +22,11 @@ class ViewController1: GEViewController {
         // Dispose of any resources that can be recreated.
     }
     override func zzAddSubViews() {
-        print(111)
+        self.view.addSubview(XPView())
     }
 
     override func zzLayoutNavigation() {
-        print(222)
+        
     }
 
     
