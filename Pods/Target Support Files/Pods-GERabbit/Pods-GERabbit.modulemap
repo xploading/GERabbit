@@ -1,0 +1,6 @@
+framework module Pods_GERabbit {
+  umbrella header "Pods-GERabbit-umbrella.h"
+
+  export *
+  module * { export * }
+}

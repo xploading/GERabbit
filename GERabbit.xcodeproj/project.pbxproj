@@ -7,14 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35F34534FD4C00DF681CE46F /* Pods_GERabbit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB05E46BF5B330A07F5087D /* Pods_GERabbit.framework */; };
 		DFFA77851ED9317500678F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77841ED9317500678F5E /* AppDelegate.swift */; };
 		DFFA77871ED9317500678F5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77861ED9317500678F5E /* ViewController.swift */; };
 		DFFA778A1ED9317500678F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFA77881ED9317500678F5E /* Main.storyboard */; };
 		DFFA778C1ED9317500678F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFA778B1ED9317500678F5E /* Assets.xcassets */; };
 		DFFA778F1ED9317500678F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFA778D1ED9317500678F5E /* LaunchScreen.storyboard */; };
+		DFFA77B81ED931B100678F5E /* GEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77991ED931B100678F5E /* GEModel.swift */; };
+		DFFA77B91ED931B100678F5E /* GEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA779A1ED931B100678F5E /* GEView.swift */; };
+		DFFA77BA1ED931B100678F5E /* GEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA779B1ED931B100678F5E /* GEViewController.swift */; };
+		DFFA77BB1ED931B100678F5E /* GEViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA779C1ED931B100678F5E /* GEViewControllerProtocol.swift */; };
+		DFFA77BC1ED931B100678F5E /* GEViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA779D1ED931B100678F5E /* GEViewModel.swift */; };
+		DFFA77BD1ED931B100678F5E /* GEViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA779E1ED931B100678F5E /* GEViewModelProtocol.swift */; };
+		DFFA77BE1ED931B100678F5E /* GEViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA779F1ED931B100678F5E /* GEViewProtocol.swift */; };
+		DFFA77BF1ED931B100678F5E /* GEBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77A11ED931B100678F5E /* GEBox.swift */; };
+		DFFA77C01ED931B100678F5E /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77A31ED931B100678F5E /* ExtensionString.swift */; };
+		DFFA77C11ED931B100678F5E /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77A41ED931B100678F5E /* ExtensionUIColor.swift */; };
+		DFFA77C21ED931B100678F5E /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77A51ED931B100678F5E /* ExtensionUIView.swift */; };
+		DFFA77C31ED931B100678F5E /* GEUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77A71ED931B100678F5E /* GEUserModel.swift */; };
+		DFFA77C41ED931B100678F5E /* GEKeyframeAnimat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77A91ED931B100678F5E /* GEKeyframeAnimat.swift */; };
+		DFFA77C51ED931B100678F5E /* GEManageHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77AA1ED931B100678F5E /* GEManageHUD.swift */; };
+		DFFA77C61ED931B100678F5E /* GERequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77AB1ED931B100678F5E /* GERequest.swift */; };
+		DFFA77C71ED931B100678F5E /* GETool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77AC1ED931B100678F5E /* GETool.swift */; };
+		DFFA77C91ED931B100678F5E /* EmitterBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77B31ED931B100678F5E /* EmitterBtn.m */; };
+		DFFA77CA1ED931B100678F5E /* sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFFA77B41ED931B100678F5E /* sparkle.png */; };
+		DFFA77CB1ED931B100678F5E /* GEAPIMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77B61ED931B100678F5E /* GEAPIMacro.swift */; };
+		DFFA77CC1ED931B100678F5E /* GEGlobalMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77B71ED931B100678F5E /* GEGlobalMacro.swift */; };
+		DFFA77CE1ED9325700678F5E /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFA77CD1ED9325700678F5E /* ReactiveCocoa.framework */; };
+		DFFA77D01ED9325A00678F5E /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFA77CF1ED9325A00678F5E /* ReactiveSwift.framework */; };
+		DFFA77D21ED9325F00678F5E /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFA77D11ED9325F00678F5E /* Result.framework */; };
+		DFFA77D41ED9328100678F5E /* GESwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77D31ED9328100678F5E /* GESwiftFile.swift */; };
+		DFFA77D61ED935FB00678F5E /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFA77D51ED935FB00678F5E /* AFNetworking.framework */; };
+		DFFA77D81ED9360000678F5E /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFA77D71ED9360000678F5E /* MBProgressHUD.framework */; };
+		DFFA77DA1ED9360400678F5E /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFA77D91ED9360400678F5E /* SDWebImage.framework */; };
+		DFFA77DC1ED9443C00678F5E /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77DB1ED9443C00678F5E /* ViewController1.swift */; };
+		DFFA77DE1ED948B500678F5E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77DD1ED948B500678F5E /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35A0DF3C0262760A49444ECA /* Pods-GERabbit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GERabbit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GERabbit/Pods-GERabbit.debug.xcconfig"; sourceTree = "<group>"; };
+		8DB05E46BF5B330A07F5087D /* Pods_GERabbit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GERabbit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A333C01388B03D4519E41372 /* Pods-GERabbit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GERabbit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GERabbit/Pods-GERabbit.release.xcconfig"; sourceTree = "<group>"; };
 		DFFA77811ED9317500678F5E /* GERabbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GERabbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFA77841ED9317500678F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFFA77861ED9317500678F5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +55,37 @@
 		DFFA778B1ED9317500678F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFFA778E1ED9317500678F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFFA77901ED9317500678F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFA77991ED931B100678F5E /* GEModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEModel.swift; sourceTree = "<group>"; };
+		DFFA779A1ED931B100678F5E /* GEView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEView.swift; sourceTree = "<group>"; };
+		DFFA779B1ED931B100678F5E /* GEViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEViewController.swift; sourceTree = "<group>"; };
+		DFFA779C1ED931B100678F5E /* GEViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEViewControllerProtocol.swift; sourceTree = "<group>"; };
+		DFFA779D1ED931B100678F5E /* GEViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEViewModel.swift; sourceTree = "<group>"; };
+		DFFA779E1ED931B100678F5E /* GEViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEViewModelProtocol.swift; sourceTree = "<group>"; };
+		DFFA779F1ED931B100678F5E /* GEViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEViewProtocol.swift; sourceTree = "<group>"; };
+		DFFA77A11ED931B100678F5E /* GEBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEBox.swift; sourceTree = "<group>"; };
+		DFFA77A31ED931B100678F5E /* ExtensionString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		DFFA77A41ED931B100678F5E /* ExtensionUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
+		DFFA77A51ED931B100678F5E /* ExtensionUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
+		DFFA77A71ED931B100678F5E /* GEUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEUserModel.swift; sourceTree = "<group>"; };
+		DFFA77A91ED931B100678F5E /* GEKeyframeAnimat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEKeyframeAnimat.swift; sourceTree = "<group>"; };
+		DFFA77AA1ED931B100678F5E /* GEManageHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEManageHUD.swift; sourceTree = "<group>"; };
+		DFFA77AB1ED931B100678F5E /* GERequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GERequest.swift; sourceTree = "<group>"; };
+		DFFA77AC1ED931B100678F5E /* GETool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GETool.swift; sourceTree = "<group>"; };
+		DFFA77B01ED931B100678F5E /* GEHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEHeader.h; sourceTree = "<group>"; };
+		DFFA77B21ED931B100678F5E /* EmitterBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterBtn.h; sourceTree = "<group>"; };
+		DFFA77B31ED931B100678F5E /* EmitterBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterBtn.m; sourceTree = "<group>"; };
+		DFFA77B41ED931B100678F5E /* sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle.png; sourceTree = "<group>"; };
+		DFFA77B61ED931B100678F5E /* GEAPIMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEAPIMacro.swift; sourceTree = "<group>"; };
+		DFFA77B71ED931B100678F5E /* GEGlobalMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEGlobalMacro.swift; sourceTree = "<group>"; };
+		DFFA77CD1ED9325700678F5E /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../../Library/Developer/Xcode/DerivedData/GERabbit-ejxdstaopdmtaeeqijueiqycmfqv/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		DFFA77CF1ED9325A00678F5E /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/GERabbit-ejxdstaopdmtaeeqijueiqycmfqv/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework"; sourceTree = "<group>"; };
+		DFFA77D11ED9325F00678F5E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "../../../Library/Developer/Xcode/DerivedData/GERabbit-ejxdstaopdmtaeeqijueiqycmfqv/Build/Products/Debug-iphonesimulator/Result/Result.framework"; sourceTree = "<group>"; };
+		DFFA77D31ED9328100678F5E /* GESwiftFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GESwiftFile.swift; path = GE/Helpers/GESwiftFile.swift; sourceTree = "<group>"; };
+		DFFA77D51ED935FB00678F5E /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../Library/Developer/Xcode/DerivedData/GERabbit-ejxdstaopdmtaeeqijueiqycmfqv/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		DFFA77D71ED9360000678F5E /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = "../../../Library/Developer/Xcode/DerivedData/GERabbit-ejxdstaopdmtaeeqijueiqycmfqv/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework"; sourceTree = "<group>"; };
+		DFFA77D91ED9360400678F5E /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../../Library/Developer/Xcode/DerivedData/GERabbit-ejxdstaopdmtaeeqijueiqycmfqv/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		DFFA77DB1ED9443C00678F5E /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		DFFA77DD1ED948B500678F5E /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +93,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFFA77DA1ED9360400678F5E /* SDWebImage.framework in Frameworks */,
+				DFFA77D81ED9360000678F5E /* MBProgressHUD.framework in Frameworks */,
+				DFFA77D61ED935FB00678F5E /* AFNetworking.framework in Frameworks */,
+				DFFA77D21ED9325F00678F5E /* Result.framework in Frameworks */,
+				DFFA77D01ED9325A00678F5E /* ReactiveSwift.framework in Frameworks */,
+				DFFA77CE1ED9325700678F5E /* ReactiveCocoa.framework in Frameworks */,
+				35F34534FD4C00DF681CE46F /* Pods_GERabbit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0741C3EDE7FC3C8543DB1A7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35A0DF3C0262760A49444ECA /* Pods-GERabbit.debug.xcconfig */,
+				A333C01388B03D4519E41372 /* Pods-GERabbit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83EFE1292DF1E6B077012C62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA77D91ED9360400678F5E /* SDWebImage.framework */,
+				DFFA77D71ED9360000678F5E /* MBProgressHUD.framework */,
+				DFFA77D51ED935FB00678F5E /* AFNetworking.framework */,
+				DFFA77D11ED9325F00678F5E /* Result.framework */,
+				DFFA77CF1ED9325A00678F5E /* ReactiveSwift.framework */,
+				DFFA77CD1ED9325700678F5E /* ReactiveCocoa.framework */,
+				8DB05E46BF5B330A07F5087D /* Pods_GERabbit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DFFA77781ED9317500678F5E = {
 			isa = PBXGroup;
 			children = (
+				DFFA77D31ED9328100678F5E /* GESwiftFile.swift */,
+				DFFA77961ED931B100678F5E /* GE */,
 				DFFA77831ED9317500678F5E /* GERabbit */,
 				DFFA77821ED9317500678F5E /* Products */,
+				0741C3EDE7FC3C8543DB1A7A /* Pods */,
+				83EFE1292DF1E6B077012C62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +158,119 @@
 				DFFA778B1ED9317500678F5E /* Assets.xcassets */,
 				DFFA778D1ED9317500678F5E /* LaunchScreen.storyboard */,
 				DFFA77901ED9317500678F5E /* Info.plist */,
+				DFFA77DB1ED9443C00678F5E /* ViewController1.swift */,
+				DFFA77DD1ED948B500678F5E /* ViewController2.swift */,
 			);
 			path = GERabbit;
+			sourceTree = "<group>";
+		};
+		DFFA77961ED931B100678F5E /* GE */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA77971ED931B100678F5E /* General */,
+				DFFA77AE1ED931B100678F5E /* Helpers */,
+				DFFA77B11ED931B100678F5E /* Library */,
+				DFFA77B51ED931B100678F5E /* Macro */,
+			);
+			path = GE;
+			sourceTree = "<group>";
+		};
+		DFFA77971ED931B100678F5E /* General */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA77981ED931B100678F5E /* Baisc */,
+				DFFA77A01ED931B100678F5E /* Core */,
+				DFFA77A21ED931B100678F5E /* Extension */,
+				DFFA77A61ED931B100678F5E /* Models */,
+				DFFA77A81ED931B100678F5E /* Pubilc */,
+				DFFA77AD1ED931B100678F5E /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		DFFA77981ED931B100678F5E /* Baisc */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA77991ED931B100678F5E /* GEModel.swift */,
+				DFFA779A1ED931B100678F5E /* GEView.swift */,
+				DFFA779B1ED931B100678F5E /* GEViewController.swift */,
+				DFFA779C1ED931B100678F5E /* GEViewControllerProtocol.swift */,
+				DFFA779D1ED931B100678F5E /* GEViewModel.swift */,
+				DFFA779E1ED931B100678F5E /* GEViewModelProtocol.swift */,
+				DFFA779F1ED931B100678F5E /* GEViewProtocol.swift */,
+			);
+			path = Baisc;
+			sourceTree = "<group>";
+		};
+		DFFA77A01ED931B100678F5E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA77A11ED931B100678F5E /* GEBox.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DFFA77A21ED931B100678F5E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA77A31ED931B100678F5E /* ExtensionString.swift */,
+				DFFA77A41ED931B100678F5E /* ExtensionUIColor.swift */,
+				DFFA77A51ED931B100678F5E /* ExtensionUIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DFFA77A61ED931B100678F5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA77A71ED931B100678F5E /* GEUserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DFFA77A81ED931B100678F5E /* Pubilc */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA77A91ED931B100678F5E /* GEKeyframeAnimat.swift */,
+				DFFA77AA1ED931B100678F5E /* GEManageHUD.swift */,
+				DFFA77AB1ED931B100678F5E /* GERequest.swift */,
+				DFFA77AC1ED931B100678F5E /* GETool.swift */,
+			);
+			path = Pubilc;
+			sourceTree = "<group>";
+		};
+		DFFA77AD1ED931B100678F5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFFA77AE1ED931B100678F5E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA77B01ED931B100678F5E /* GEHeader.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DFFA77B11ED931B100678F5E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA77B21ED931B100678F5E /* EmitterBtn.h */,
+				DFFA77B31ED931B100678F5E /* EmitterBtn.m */,
+				DFFA77B41ED931B100678F5E /* sparkle.png */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		DFFA77B51ED931B100678F5E /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA77B61ED931B100678F5E /* GEAPIMacro.swift */,
+				DFFA77B71ED931B100678F5E /* GEGlobalMacro.swift */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFFA77931ED9317500678F5E /* Build configuration list for PBXNativeTarget "GERabbit" */;
 			buildPhases = (
+				61F2E2849434C2EFABE784E9 /* [CP] Check Pods Manifest.lock */,
 				DFFA777D1ED9317500678F5E /* Sources */,
 				DFFA777E1ED9317500678F5E /* Frameworks */,
 				DFFA777F1ED9317500678F5E /* Resources */,
+				7BA6D3F08C24431AF96B3971 /* [CP] Embed Pods Frameworks */,
+				78DBAE8095E9D158F1DE94CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFFA77CA1ED931B100678F5E /* sparkle.png in Resources */,
 				DFFA778F1ED9317500678F5E /* LaunchScreen.storyboard in Resources */,
 				DFFA778C1ED9317500678F5E /* Assets.xcassets in Resources */,
 				DFFA778A1ED9317500678F5E /* Main.storyboard in Resources */,
@@ -132,13 +345,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		61F2E2849434C2EFABE784E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78DBAE8095E9D158F1DE94CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GERabbit/Pods-GERabbit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BA6D3F08C24431AF96B3971 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GERabbit/Pods-GERabbit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DFFA777D1ED9317500678F5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFFA77BB1ED931B100678F5E /* GEViewControllerProtocol.swift in Sources */,
+				DFFA77C41ED931B100678F5E /* GEKeyframeAnimat.swift in Sources */,
+				DFFA77C51ED931B100678F5E /* GEManageHUD.swift in Sources */,
+				DFFA77C21ED931B100678F5E /* ExtensionUIView.swift in Sources */,
 				DFFA77871ED9317500678F5E /* ViewController.swift in Sources */,
+				DFFA77BC1ED931B100678F5E /* GEViewModel.swift in Sources */,
+				DFFA77DC1ED9443C00678F5E /* ViewController1.swift in Sources */,
+				DFFA77C31ED931B100678F5E /* GEUserModel.swift in Sources */,
+				DFFA77D41ED9328100678F5E /* GESwiftFile.swift in Sources */,
+				DFFA77BF1ED931B100678F5E /* GEBox.swift in Sources */,
+				DFFA77B81ED931B100678F5E /* GEModel.swift in Sources */,
+				DFFA77C91ED931B100678F5E /* EmitterBtn.m in Sources */,
+				DFFA77B91ED931B100678F5E /* GEView.swift in Sources */,
+				DFFA77BA1ED931B100678F5E /* GEViewController.swift in Sources */,
+				DFFA77C11ED931B100678F5E /* ExtensionUIColor.swift in Sources */,
+				DFFA77C01ED931B100678F5E /* ExtensionString.swift in Sources */,
+				DFFA77BD1ED931B100678F5E /* GEViewModelProtocol.swift in Sources */,
+				DFFA77DE1ED948B500678F5E /* ViewController2.swift in Sources */,
 				DFFA77851ED9317500678F5E /* AppDelegate.swift in Sources */,
+				DFFA77C71ED931B100678F5E /* GETool.swift in Sources */,
+				DFFA77CB1ED931B100678F5E /* GEAPIMacro.swift in Sources */,
+				DFFA77C61ED931B100678F5E /* GERequest.swift in Sources */,
+				DFFA77BE1ED931B100678F5E /* GEViewProtocol.swift in Sources */,
+				DFFA77CC1ED931B100678F5E /* GEGlobalMacro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +544,7 @@
 		};
 		DFFA77941ED9317500678F5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A0DF3C0262760A49444ECA /* Pods-GERabbit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CGAM2DA629;
@@ -268,12 +552,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.iluckyday.GERabbit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/GE/Helpers/GEHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		DFFA77951ED9317500678F5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A333C01388B03D4519E41372 /* Pods-GERabbit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CGAM2DA629;
@@ -281,6 +567,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.iluckyday.GERabbit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/GE/Helpers/GEHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +591,7 @@
 				DFFA77951ED9317500678F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
