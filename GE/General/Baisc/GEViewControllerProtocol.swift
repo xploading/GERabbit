@@ -9,11 +9,12 @@
 import Foundation
 
 protocol GEViewControllerProtocol {
+//    var viewModel:GEViewModel{get set}
     func initWith(_ viewModel:GEViewModel) //初始化绑定
     func zzAddSubViews() //添加子视图
     func zzBindingViewModel() //绑定ViewModel
     func zzLayoutNavigation() //布局导航条
     func zzGetNewData() //获取数据
-    func recoverKeyboard() //收起键盘
+    func zzRecoverKeyboard() //收起键盘
 }
 

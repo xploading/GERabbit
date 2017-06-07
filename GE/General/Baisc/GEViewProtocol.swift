@@ -11,4 +11,5 @@ import UIKit
 protocol GEViewProtocol {
     func zzSetupSubViews()
     func zzBindingViewModel()
+    func initWith(VM:GEViewModel)->GEView
 }

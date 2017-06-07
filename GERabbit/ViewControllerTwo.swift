@@ -1,15 +1,15 @@
 //
-//  ViewController1.swift
+//  ViewControllerTwo.swift
 //  GERabbit
 //
-//  Created by QTJT on 2017/5/27.
+//  Created by QTJT on 2017/5/31.
 //  Copyright © 2017年 Rabbit. All rights reserved.
 //
 
 import UIKit
 
-class ViewController1: GEViewController {
-    var viewModel : GEViewModel?
+
+class ViewControllerTwo: GEViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,13 +21,12 @@ class ViewController1: GEViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    override func zzAddSubViews() {
-        self.view.addSubview(XPView())
-    }
-
     override func zzLayoutNavigation() {
-        
+        print("自定制导航条内容")
     }
-
     
+
+    deinit {
+        print("销毁")
+    }
 }

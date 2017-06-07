@@ -9,10 +9,18 @@
 import UIKit
 
 class GEView: UIView , GEViewProtocol {
+    var viewModel:GEViewModel?
+    
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.zzSetupSubViews()
-        self.zzBindingViewModel()
+    }
+    func initWith(VM: GEViewModel) -> GEView {
+        let view = self
+        view.viewModel = VM
+        view.zzBindingViewModel()
+        view.zzSetupSubViews()
+        return view
     }
     
     
@@ -21,11 +29,7 @@ class GEView: UIView , GEViewProtocol {
     }
     
     func zzBindingViewModel(){
-        
-    }
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
+
     }
     
     

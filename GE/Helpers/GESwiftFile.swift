@@ -10,6 +10,3 @@ import Foundation
 import ReactiveSwift
 import ReactiveCocoa
 import Result
-import AFNetworking
-import MBProgressHUD
-import SDWebImage

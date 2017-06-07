@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		35F34534FD4C00DF681CE46F /* Pods_GERabbit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB05E46BF5B330A07F5087D /* Pods_GERabbit.framework */; };
+		DF0A63AB1EE6A71F00D917C4 /* ZZView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A63AA1EE6A71F00D917C4 /* ZZView.swift */; };
+		DFB4DDC71EDEB3B400BD65A7 /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4DDC61EDEB3B400BD65A7 /* ViewControllerOne.swift */; };
+		DFB4DDC91EDEB3BF00BD65A7 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4DDC81EDEB3BF00BD65A7 /* ViewControllerTwo.swift */; };
 		DFFA77851ED9317500678F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77841ED9317500678F5E /* AppDelegate.swift */; };
 		DFFA77871ED9317500678F5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77861ED9317500678F5E /* ViewController.swift */; };
 		DFFA778A1ED9317500678F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFA77881ED9317500678F5E /* Main.storyboard */; };
@@ -40,15 +43,15 @@
 		DFFA77D61ED935FB00678F5E /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFA77D51ED935FB00678F5E /* AFNetworking.framework */; };
 		DFFA77D81ED9360000678F5E /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFA77D71ED9360000678F5E /* MBProgressHUD.framework */; };
 		DFFA77DA1ED9360400678F5E /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFA77D91ED9360400678F5E /* SDWebImage.framework */; };
-		DFFA77DC1ED9443C00678F5E /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77DB1ED9443C00678F5E /* ViewController1.swift */; };
-		DFFA77DE1ED948B500678F5E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77DD1ED948B500678F5E /* ViewController2.swift */; };
-		DFFA77E01ED9540400678F5E /* XPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA77DF1ED9540400678F5E /* XPView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		35A0DF3C0262760A49444ECA /* Pods-GERabbit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GERabbit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GERabbit/Pods-GERabbit.debug.xcconfig"; sourceTree = "<group>"; };
 		8DB05E46BF5B330A07F5087D /* Pods_GERabbit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GERabbit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A333C01388B03D4519E41372 /* Pods-GERabbit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GERabbit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GERabbit/Pods-GERabbit.release.xcconfig"; sourceTree = "<group>"; };
+		DF0A63AA1EE6A71F00D917C4 /* ZZView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZView.swift; sourceTree = "<group>"; };
+		DFB4DDC61EDEB3B400BD65A7 /* ViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
+		DFB4DDC81EDEB3BF00BD65A7 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		DFFA77811ED9317500678F5E /* GERabbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GERabbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFA77841ED9317500678F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFFA77861ED9317500678F5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,9 +88,6 @@
 		DFFA77D51ED935FB00678F5E /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../Library/Developer/Xcode/DerivedData/GERabbit-ejxdstaopdmtaeeqijueiqycmfqv/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		DFFA77D71ED9360000678F5E /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = "../../../Library/Developer/Xcode/DerivedData/GERabbit-ejxdstaopdmtaeeqijueiqycmfqv/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework"; sourceTree = "<group>"; };
 		DFFA77D91ED9360400678F5E /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../../Library/Developer/Xcode/DerivedData/GERabbit-ejxdstaopdmtaeeqijueiqycmfqv/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
-		DFFA77DB1ED9443C00678F5E /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
-		DFFA77DD1ED948B500678F5E /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		DFFA77DF1ED9540400678F5E /* XPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,9 +160,9 @@
 				DFFA778B1ED9317500678F5E /* Assets.xcassets */,
 				DFFA778D1ED9317500678F5E /* LaunchScreen.storyboard */,
 				DFFA77901ED9317500678F5E /* Info.plist */,
-				DFFA77DB1ED9443C00678F5E /* ViewController1.swift */,
-				DFFA77DD1ED948B500678F5E /* ViewController2.swift */,
-				DFFA77DF1ED9540400678F5E /* XPView.swift */,
+				DFB4DDC61EDEB3B400BD65A7 /* ViewControllerOne.swift */,
+				DFB4DDC81EDEB3BF00BD65A7 /* ViewControllerTwo.swift */,
+				DF0A63AA1EE6A71F00D917C4 /* ZZView.swift */,
 			);
 			path = GERabbit;
 			sourceTree = "<group>";
@@ -406,20 +406,20 @@
 				DFFA77C51ED931B100678F5E /* GEManageHUD.swift in Sources */,
 				DFFA77C21ED931B100678F5E /* ExtensionUIView.swift in Sources */,
 				DFFA77871ED9317500678F5E /* ViewController.swift in Sources */,
-				DFFA77E01ED9540400678F5E /* XPView.swift in Sources */,
+				DFB4DDC71EDEB3B400BD65A7 /* ViewControllerOne.swift in Sources */,
 				DFFA77BC1ED931B100678F5E /* GEViewModel.swift in Sources */,
-				DFFA77DC1ED9443C00678F5E /* ViewController1.swift in Sources */,
 				DFFA77C31ED931B100678F5E /* GEUserModel.swift in Sources */,
 				DFFA77D41ED9328100678F5E /* GESwiftFile.swift in Sources */,
 				DFFA77BF1ED931B100678F5E /* GEBox.swift in Sources */,
 				DFFA77B81ED931B100678F5E /* GEModel.swift in Sources */,
+				DF0A63AB1EE6A71F00D917C4 /* ZZView.swift in Sources */,
+				DFB4DDC91EDEB3BF00BD65A7 /* ViewControllerTwo.swift in Sources */,
 				DFFA77C91ED931B100678F5E /* EmitterBtn.m in Sources */,
 				DFFA77B91ED931B100678F5E /* GEView.swift in Sources */,
 				DFFA77BA1ED931B100678F5E /* GEViewController.swift in Sources */,
 				DFFA77C11ED931B100678F5E /* ExtensionUIColor.swift in Sources */,
 				DFFA77C01ED931B100678F5E /* ExtensionString.swift in Sources */,
 				DFFA77BD1ED931B100678F5E /* GEViewModelProtocol.swift in Sources */,
-				DFFA77DE1ED948B500678F5E /* ViewController2.swift in Sources */,
 				DFFA77851ED9317500678F5E /* AppDelegate.swift in Sources */,
 				DFFA77C71ED931B100678F5E /* GETool.swift in Sources */,
 				DFFA77CB1ED931B100678F5E /* GEAPIMacro.swift in Sources */,

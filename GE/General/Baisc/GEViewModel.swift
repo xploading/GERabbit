@@ -9,11 +9,13 @@
 import UIKit
 
 class GEViewModel: NSObject,GEViewModelProtocol {
-    func initWith(_ model: Any) {
-        
-    }
-    func zzInitialize() {
-        
+    override init() {
+        super.init()
+        let viewModel = GEViewModel()
+        print(self)
     }
     
+    func initWith(_ model: Any)->GEViewModel {
+        return self
+    }
 }

@@ -18,7 +18,11 @@ class GERequest: NSObject {
         let set = Set<String>(arrayLiteral: "text/html","text/plain","text/json","application/json", "text/javascript")
         manager.responseSerializer.acceptableContentTypes = set
         return manager
+        
     }
+    
+    
+    
     
 /** POST请求*/
     static func POST(urlString:String,paraments:Any?,successBack:@escaping (_ json:Any)->Void,failBack:@escaping (_ error:Any)->Void)
